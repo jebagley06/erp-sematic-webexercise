@@ -1,0 +1,54 @@
+body {
+    background: grey;
+}
+.main-nav.ui.secondary.pointing.menu {
+    background: white;
+}
+.main-nav.ui.secondary.pointing.menu > .header.item{
+    background: red;
+    color: white !important;
+}
+.application-container {
+    padding:10px;
+
+}
+.sub-container {
+    background: lightgrey;
+}
+.sub-container > .ui.secondary.pointing.menu {
+    margin-bottom:0;
+}
+.user-info-container {
+    background: white;
+}
+.ui.secondary.pointing.menu .active.item {
+    border-color:red;
+}
+.ui.form {
+    padding:1rem;
+}
+.ui.form .field>label {
+    color:grey;
+    text-transform: uppercase;
+}
+.ui.attached.label {
+    text-transform: uppercase;
+}
+.form-action-buttons {
+    clear: both;
+    display: flow-root;
+    padding-bottom:1rem;
+}
+.ui.primary.button {
+    background-color: red;
+}
+.ui.floated.segment {
+    min-width:10%;
+    display:flex;
+}
+
+.ui.floated.segment select{
+    border:none;
+    overflow-y: auto;
+    min-height:100px;
+}
